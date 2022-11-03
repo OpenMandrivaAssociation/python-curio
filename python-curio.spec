@@ -2,7 +2,7 @@
 
 Summary:	A coroutine-based library for concurrent Python systems programming using async/await
 Name:		python-%{module}
-Version:	1.5
+Version:	1.6
 Release:	1
 License:	BSD
 Group:		Development/Python
