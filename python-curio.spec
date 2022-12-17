@@ -28,7 +28,7 @@ dependencies. You'll find it to be familiar, small, fast, and fun.
 %license LICENSE
 %doc README.rst
 %{python_sitelib}/%{module}/
-%{python_sitelib}/%{module}-%{version}-py%{pyver}.egg-info/
+%{python_sitelib}/%{module}-%{version}-py%{pyver}.*-info/
 
 #----------------------------------------------------------------------------
 
