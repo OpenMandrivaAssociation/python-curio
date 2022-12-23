@@ -1,13 +1,11 @@
-%define module curio
-
 Summary:	A coroutine-based library for concurrent Python systems programming using async/await
-Name:		python-%{module}
+Name:		python-curio
 Version:	1.6
 Release:	1
 License:	BSD
 Group:		Development/Python
-Url:		https://github.com/dabeaz/curio/%{module}
-Source:		https://files.pythonhosted.org/packages/source/c/%{module}/%{module}-%{version}.tar.gz
+Url:		https://github.com/dabeaz/curio/curio
+Source:		https://files.pythonhosted.org/packages/source/c/curio/curio-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python3dist(setuptools)
@@ -27,13 +25,13 @@ dependencies. You'll find it to be familiar, small, fast, and fun.
 %files
 %license LICENSE
 %doc README.rst
-%{python_sitelib}/%{module}/
-%{python_sitelib}/%{module}-%{version}-py%{pyver}.*-info/
+%{python_sitelib}/curio/
+%{python_sitelib}/curio-%{version}-py%{pyver}.*-info/
 
 #----------------------------------------------------------------------------
 
 %prep
-%autosetup -n %{module}-%{version}
+%autosetup -n curio-%{version}
 
 %build
 %py_build
