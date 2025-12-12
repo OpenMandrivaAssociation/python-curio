@@ -1,7 +1,7 @@
 Summary:	A coroutine-based library for concurrent Python systems programming using async/await
 Name:		python-curio
 Version:	1.6
-Release:	2
+Release:	3
 License:	BSD
 Group:		Development/Python
 Url:		https://github.com/dabeaz/curio/curio
